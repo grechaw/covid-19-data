@@ -1,0 +1,78 @@
+
+prefix awtser: <http://cambridgesemantics.com/ontologies/2009/05/AnzoWebToolkitSerialization#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix anzo: <http://openanzo.org/ontologies/2008/07/Anzo#>
+prefix reg: <http://cambridgesemantics.com/registries/>
+ 
+CONSTRUCT {
+          GRAPH ?generalGraph {
+                ?generalSubject ?generalPredicate ?generalObject .
+          }
+}
+FROM DATASET <http://cambridgesemantics.com/registries/AnzoWebToolkit>
+WITH {
+     SELECT ?dashboard ?lens
+     WHERE {
+           GRAPH ?dashboard {
+                ?s awtser:registryComponent ?lens .
+                ?s dc:title "census" .
+           }
+     }
+} AS %_dashboard
+WHERE {
+      {
+        SELECT ?generalGraph ?generalSubject ?generalPredicate ?generalObject
+        WHERE {
+               INCLUDE %_dashboard
+               GRAPH ?dashboard {
+                  ?generalSubject ?generalPredicate ?generalObject .
+               }
+               BIND(?dashboard AS ?generalGraph)
+        }
+      } UNION {
+        SELECT ?generalGraph ?generalSubject ?generalPredicate ?generalObject
+        WHERE {
+               INCLUDE %_dashboard
+               GRAPH ?lens {
+                 ?generalSubject ?generalPredicate ?generalObject .
+                 }
+            BIND(?lens AS ?generalGraph)
+        }
+      } UNION {
+        SELECT ?generalGraph ?generalSubject ?generalPredicate ?generalObject
+        WHERE {
+               INCLUDE %_dashboard
+               GRAPH ?mdg {
+                 ?dashboard anzo:hasMetadataGraph ?mdg .
+                 ?generalSubject ?generalPredicate ?generalObject .
+                 }
+            BIND(?mdg AS ?generalGraph)
+            FILTER (?generalPredicate in (anzo:canBeReadBy, anzo:canBeRemovedFromBy, anzo:canBeAddedToBy, anzo:inheritsFrom))
+            FILTER (?generalSubject in (?dashboard, ?mdg))
+        }
+      } UNION {
+        SELECT ?generalGraph ?generalSubject ?generalPredicate ?generalObject
+        WHERE {
+               INCLUDE %_dashboard
+               GRAPH ?mdL {
+                 ?lens anzo:hasMetadataGraph ?mdL .
+                 ?generalSubject ?generalPredicate ?generalObject .
+                 }
+            BIND(?mdL AS ?generalGraph)
+            FILTER (?generalPredicate in (anzo:canBeReadBy, anzo:canBeRemovedFromBy, anzo:canBeAddedToBy, anzo:inheritsFrom))
+            FILTER (?generalSubject in (?lens, ?mdL))
+        }
+      } UNION {
+        SELECT ?generalGraph ?generalSubject ?generalPredicate ?generalObject
+        WHERE {
+              INCLUDE %_dashboard
+              GRAPH reg:AnzoWebToolkit {
+                    reg:AnzoWebToolkit anzo:defaultNamedGraph ?generalObject .
+                    }
+           BIND(reg:AnzoWebToolkit AS ?generalGraph)
+           BIND(reg:AnzoWebToolkit AS ?generalSubject)
+           BIND(anzo:defaultNamedGraph AS ?generalPredicate)
+           FILTER(?generalObject IN (?lens, ?dashboard))
+        }
+      }
+}
