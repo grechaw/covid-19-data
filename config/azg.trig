@@ -5,7 +5,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 <http://openanzo.org/registries/Datasources> {
-    registries:Datasources anzo:defaultNamedGraph <http://cambridgesemantics.com/GqeDatasource/guid_8c07ec1ec74f4e5bb9f21207c4a9c188> .
+    <http://openanzo.org/registries/Datasources> anzo:defaultNamedGraph <http://cambridgesemantics.com/GqeDatasource/guid_8c07ec1ec74f4e5bb9f21207c4a9c188> .
 }
 
 <http://cambridgesemantics.com/GqeDatasource/guid_8c07ec1ec74f4e5bb9f21207c4a9c188> {
