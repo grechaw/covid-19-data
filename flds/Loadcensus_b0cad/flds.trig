@@ -1,0 +1,32 @@
+
+<http://csi.com/FileBasedLinkedDataSet/bf7a230348c023bf08f9168ff966ed0c> {
+	<http://csi.com/FileBasedLinkedDataSet/bf7a230348c023bf08f9168ff966ed0c> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataFilesOnly> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataFormat> "ttl.gz" ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataset> <http://csi.com/FileBasedLinkedDataSet/bf7a230348c023bf08f9168ff966ed0c> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#isTextIndexUsed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#jobRun> <http://cambridgesemantics.com/Project/ef5bb74e-168a-f69c-8e7c-908b91eabd03/ef5bb74e-168a-f69c-8e7c-908b91eabd03/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/79b082c6-9ac4-d132-833a-f6d8558d8cec/1585691031880> , <http://cambridgesemantics.com/Project/ef5bb74e-168a-f69c-8e7c-908b91eabd03/ef5bb74e-168a-f69c-8e7c-908b91eabd03/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/a804896c-3b29-4f8d-95a9-0154e2c8f36b/1585691948079> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#metrics> <http://csi.com/FileBasedLinkedDataSet/bf7a230348c023bf08f9168ff966ed0c_metrics> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ontology> <http://cambridgesemantics.com/metadict/ont/autogen/Bo/census_pop> , <http://csi.com/covid19> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#relatedJob> <http://cambridgesemantics.com/Project/ef5bb74e-168a-f69c-8e7c-908b91eabd03/ef5bb74e-168a-f69c-8e7c-908b91eabd03/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/79b082c6-9ac4-d132-833a-f6d8558d8cec> , <http://cambridgesemantics.com/Project/ef5bb74e-168a-f69c-8e7c-908b91eabd03/ef5bb74e-168a-f69c-8e7c-908b91eabd03/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/a804896c-3b29-4f8d-95a9-0154e2c8f36b> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#relatedProject> <http://cambridgesemantics.com/Project/ef5bb74e-168a-f69c-8e7c-908b91eabd03/ef5bb74e-168a-f69c-8e7c-908b91eabd03/74398dcc-c691-7d17-a1e2-b04b7b635817> ;
+		<http://purl.org/dc/elements/1.1/title> "census" ;
+		<http://purl.org/dc/terms/created> "2020-03-31T21:44:02.705Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://purl.org/dc/terms/modified> "2020-03-31T21:59:35.447Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
+		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#FileBasedLinkedDataSet> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataConfig> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataSet> ;
+		<http://www.w3.org/2000/01/rdf-schema#label> "census" .
+	
+	<http://csi.com/FileBasedLinkedDataSet/bf7a230348c023bf08f9168ff966ed0c_metrics> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classUsageData> <http://openanzo.org/ClassInstanceCount/02bb0ca7-0dfd-4939-831e-bda7d43c575f> , <http://openanzo.org/ClassInstanceCount/80a94d52-71b1-4bd5-9da7-31d6367d8071> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#sizeInBytes> "694601"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#statementCount> "249444"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#DatasetMetrics> .
+	
+	<http://openanzo.org/ClassInstanceCount/02bb0ca7-0dfd-4939-831e-bda7d43c575f> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "3198"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid19#LND01> ;
+		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> .
+	
+	<http://openanzo.org/ClassInstanceCount/80a94d52-71b1-4bd5-9da7-31d6367d8071> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "3198"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid19#POP01> ;
+		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> .
+}

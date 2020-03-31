@@ -4,7 +4,7 @@
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataFormat> "ttl.gz" ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataset> <http://csi.com/FileBasedLinkedDataSet/bc5e6db5bf5eb1dd97b787ea191787b1> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#isTextIndexUsed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#jobRun> <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b/1585586319426> , <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b/1585605665505> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#jobRun> <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b/1585586319426> , <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b/1585605665505> , <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b/1585605711475> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#metrics> <http://csi.com/FileBasedLinkedDataSet/bc5e6db5bf5eb1dd97b787ea191787b1_metrics> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ontology> <http://csi.com/example/covid-19> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#relatedJob> <http://cambridgesemantics.com/Project/36cad508-7018-e00a-b646-c2df01d6ff9c/36cad508-7018-e00a-b646-c2df01d6ff9c/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/7c62c022-fc3b-0520-8d81-96b6940e629b> ;
@@ -12,17 +12,17 @@
 		<http://purl.org/dc/elements/1.1/title> "covid-counties" ;
 		<http://purl.org/dc/terms/created> "2020-03-30T16:38:49.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-03-30T22:02:01.532Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-03-31T18:24:15.106Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
 		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#FileBasedLinkedDataSet> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataConfig> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataSet> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "covid-counties" .
 	
-	<http://csi.com/FileBasedLinkedDataSet/bc5e6db5bf5eb1dd97b787ea191787b1_metrics> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classUsageData> <http://openanzo.org/ClassInstanceCount/3b17e77a-e763-4ad0-a906-558f45ebd38b> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#sizeInBytes> "724086"^^<http://www.w3.org/2001/XMLSchema#long> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#statementCount> "123838"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	<http://csi.com/FileBasedLinkedDataSet/bc5e6db5bf5eb1dd97b787ea191787b1_metrics> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classUsageData> <http://openanzo.org/ClassInstanceCount/5a0d14d3-9863-4710-ae41-b94150420ae2> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#sizeInBytes> "889857"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#statementCount> "152258"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#DatasetMetrics> .
 	
-	<http://openanzo.org/ClassInstanceCount/3b17e77a-e763-4ad0-a906-558f45ebd38b> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "17731"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	<http://openanzo.org/ClassInstanceCount/5a0d14d3-9863-4710-ae41-b94150420ae2> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "21799"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/example/covid-19#us-counties> ;
 		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> .
 }

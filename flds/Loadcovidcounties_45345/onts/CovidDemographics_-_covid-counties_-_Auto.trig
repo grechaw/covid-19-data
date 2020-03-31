@@ -7,39 +7,52 @@
 		a <http://www.w3.org/2002/07/owl#Ontology> ;
 		<http://www.w3.org/2000/01/rdf-schema#comment> "Auto-generated ontology from covid-counties in covid-counties" ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "CovidDemographics - covid-counties - Auto" ;
-		<http://purl.org/dc/terms/modified> "2020-03-30T22:01:36.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-03-30T22:03:19.691Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/elements/1.1/description> "Auto-generated ontology from covid-counties in covid-counties" .
 	
-	<http://csi.com/example/covid-19#us-counties> a <http://www.w3.org/2000/01/rdf-schema#Class> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#Class> ;
+	<http://csi.com/example/covid-19#us-counties> a <http://www.w3.org/2002/07/owl#Class> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "us-counties" .
 	
-	<http://csi.com/example/covid-19#us-counties_cases> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_cases> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "cases" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://csi.com/example/covid-19#us-counties_county> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_county> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "county" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 	
-	<http://csi.com/example/covid-19#us-counties_date> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_date> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#date> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "date" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
 	
-	<http://csi.com/example/covid-19#us-counties_deaths> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_deaths> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "deaths" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://csi.com/example/covid-19#us-counties_fips> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_fips> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "fips" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://csi.com/example/covid-19#us-counties_state> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://csi.com/example/covid-19#us-counties_state> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "state" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+	
+	<http://csi.com/example/covid-19#p_Total_Pop_2010> <http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
+		a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://www.w3.org/2000/01/rdf-schema#domain> <http://csi.com/example/covid-19#us-counties> ;
+		<http://www.w3.org/2000/01/rdf-schema#label> "Total Pop 2010" ;
+		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> ;
+		<http://purl.org/dc/elements/1.1/title> "Total Pop 2010" .
 }

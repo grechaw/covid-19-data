@@ -1,0 +1,34 @@
+
+Add new file.
+
+Went and found file with land area in it
+
+download and process with in2csv
+census LND01
+
+Find data sources, census
+Add file
+Import
+Add to dictionary
+Navigates to dictionary, that's good
+No idea what this is all for though...
+
+i tried splitting, did what i wanted i think...
+
+now ingest using dictionary?
+go back to data sources, do dance to ingest with data dictionary
+
+navigate to pipelines, find it
+made a new one because id renamed schema/data source
+and only the LND job is in it.  crep
+
+so the old one census pop is still there
+this gets so messy
+annnd... it doesn't run.
+
+try deleting pipeline...
+
+now the whole thing is fucked.
+
+
+
