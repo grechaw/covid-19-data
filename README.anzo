@@ -1,3 +1,19 @@
+This is more about notes, but also about collecting some best practices.
+
+
+The premise is that the goal of my project is to have an artifact that I can move
+from a development environment to a test environment.  I believe that,
+through the construction of a reference graphmart, one can tailor the export service
+to include everything needed for this kind of project.
+tas
+
+
+
+The goal of a project is to have a refrence implementation of graphmarts that unambiguously defines the whole dependency graph.
+Correlary- any other graphmarts in an engagement should not have dependencies that are models/pipelines
+
+
+
 
 Add new file.
 
@@ -29,6 +45,37 @@ annnd... it doesn't run.
 try deleting pipeline...
 
 now the whole thing is fucked.
+
+
+
+try -- changing a type in your model
+
+----
+Pristine script first
+
+a. add two census files
+b. add just the columns with values to a new data dictionary
+c. add covid, full select all tables
+d. add to existing dictionary
+
+e. ingest census with dictionary, create new model
+f. ingest covid with dictionary, add to model -- no option to add to existing model
+    used same ontology URI as previous step, which caused:
+    g. run pipeline one failed.
+h. run pipeline 2 succeeded.
+
+models -- what was the point of just selecting specific columns if the whole chunker is coming in anyway.
+there's no simple way to make a canonical model without writing the whole chunker into data layers
+
+ugh, merging seemed promising but i get an untitled class.
+
+
+
+
+(create gqe store, import azg.trig that is pre-existing)
+
+
+
 
 
 
