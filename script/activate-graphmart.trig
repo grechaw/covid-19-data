@@ -1,0 +1,8 @@
+@prefix graphmarts:<http://cambridgesemantics.com/ontologies/Graphmarts#> .
+
+<http://openanzo.org/semanticService.com#my_request> {
+    <http://openanzo.org/semanticService.com#my_request> a <http://cambridgesemantics.com/ontologies/Graphmarts#GraphmartRequest> ;
+        graphmarts:graphmart <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> .
+}
+
+

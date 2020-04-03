@@ -1,0 +1,37 @@
+
+<http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> {
+	<http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> a <http://openanzo.org/ontologies/2008/07/Anzo#Dataset> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> , <http://cambridgesemantics.com/Layer/91ee3c8c83b74a589290f96106cc577d> , <http://cambridgesemantics.com/Layer/b3ba649adaca4b3983acb510a5030ad1> , <http://cambridgesemantics.com/LoadDataStep/807e961e9ae845ceb7368287cee4e9bd> , <http://cambridgesemantics.com/QueryStep/ad530f48f75e45e38be80c750a824a1b> .
+}
+
+<http://cambridgesemantics.com/catalogs/LinkedDataSets> {
+	<http://cambridgesemantics.com/catalogs/LinkedDataSets> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://openanzo.org/catEntry(%5Bhttp%3A%2F%2Fcsi.com%2FFileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec%5D%40%5Bhttp%3A%2F%2Fopenanzo.org%2Fdatasource%2FsystemDatasource%5D)> .
+}
+
+<http://cambridgesemantics.com/registries/DataSets> {
+	<http://cambridgesemantics.com/registries/DataSets> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> .
+}
+
+<http://cambridgesemantics.com/registries/DataSources> {
+	<http://cambridgesemantics.com/registries/DataSources> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://cambridgesemantics.com/AnzoDataStore/caa723b6d1a343cba83cc492b8364be4> , <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad> , <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid> , <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid_instance> , <http://cambridgesemantics.com/File_Connection/local> .
+}
+
+<http://cambridgesemantics.com/registries/GraphmartElements> {
+	<http://cambridgesemantics.com/registries/GraphmartElements> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://cambridgesemantics.com/Layer/91ee3c8c83b74a589290f96106cc577d> , <http://cambridgesemantics.com/Layer/b3ba649adaca4b3983acb510a5030ad1> , <http://cambridgesemantics.com/LoadDataStep/807e961e9ae845ceb7368287cee4e9bd> , <http://cambridgesemantics.com/QueryStep/ad530f48f75e45e38be80c750a824a1b> .
+}
+
+<http://cambridgesemantics.com/registries/Graphmarts> {
+	<http://cambridgesemantics.com/registries/Graphmarts> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> , <http://cambridgesemantics.com/QueryStep/ad530f48f75e45e38be80c750a824a1b> .
+}
+
+<http://cambridgesemantics.com/registries/LinkedDataSets> {
+	<http://cambridgesemantics.com/registries/LinkedDataSets> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> .
+}
+
+<http://cambridgesemantics.com/registries/Ontologies> {
+	<http://cambridgesemantics.com/registries/Ontologies> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://csi.com/covid-analysis> .
+}
+
+<http://cambridgesemantics.com/registries/SDI> {
+	<http://cambridgesemantics.com/registries/SDI> <http://openanzo.org/ontologies/2008/07/Anzo#defaultNamedGraph> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817> , <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/0e1f3ea397cefe1e7ec4f359b435f59f/74398dccc6917d17a1e2b04b7b635817> , <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/16f6890218b21e43bd5e775082d0c94b/74398dccc6917d17a1e2b04b7b635817> , <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/366d4ef1dee297fa45617b769450c9dd/74398dccc6917d17a1e2b04b7b635817> , <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/5e2168974bda73d362913667380598d9/74398dccc6917d17a1e2b04b7b635817> .
+}

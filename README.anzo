@@ -1,81 +1,87 @@
-This is more about notes, but also about collecting some best practices.
+This project tries to exercise Anso in a basic data integration project.
 
+It has had a lot of false starts, some of this is due to not understanding intended usage,
+some is because of product pitfalls.  It's hard to characterize pitfalls.
 
 The premise is that the goal of my project is to have an artifact that I can move
 from a development environment to a test environment.  I believe that,
 through the construction of a reference graphmart, one can tailor the export service
 to include everything needed for this kind of project.
-tas
 
 
+Versions maybe maybe don't work, it's really hard to understand how one is supposed to 
+move stuff around between servers.  I think that's because ops is still a thing.
 
-The goal of a project is to have a refrence implementation of graphmarts that unambiguously defines the whole dependency graph.
+A goal of a project is to have a refrence implementation of graphmarts that unambiguously defines the whole dependency graph.
 Correlary- any other graphmarts in an engagement should not have dependencies that are models/pipelines
 
 
+Onboard
+I've got census data, one line per state or county
+I've got covid data.  one file has one line per day per state.  the other has one line per day per county.
+
+So the model I want makes sense now that I've gone through that thinking, but it was not before.
+There's a one-to-many census->covid data here.
+And an aggregation level (one state = many counties)
+
+Since the covid data changes daily (kill n fill) and the census data is static (one time load)
+best to have two jobs.  Two data sources is probably proper but I'm going to not do that in the interest
+of time.
+
+Rationale for two data sources -- that will lead to two layers/two fldses which is indeed what i want.
+
+Part of me thinks fuck data dict, im going to just make the model i want 
+and conform.
+The data dictionary gives me a method to get where i want to go though.... frustrating not to know what to do!
+
+So I auto-ingested but now i remember i have to have created the relationship already during import as a fk/pk
+So I go back and redo that part
+Suggested keys is totally cool, but i had to navigate a wild way to get there
+
+OK added the second data source.  Now how do I use data dictionary to get what i want....
+
+Merged the two census types into a Census County.  Removed all properties from this that i didn't want.
+
+Added object properties to relate covid data to census data.
+
+Now I'm ready to ingest with dictionary I hope.
+
+I'm creating a version of data dictionary to 'save my work'
+
+Had to go make gqe data source, challenged when auto ingesting
+Using sparqlr for the heck of it
+
+Only in trying to run, "no relationship exists".  so id made the pk/fk wtf
+
+Trying again, making new model
+Now when i go to the other source, i cannot leverage the model i created inthe other step. hmmmmmm
+
+So it was not enough to create object properties -- they did not come into the model. hmmm
+Include unmapped concepts is checked -- one would expect that to mean they would come in.
+
+... it occurs to me now that if i go back to the beginning with a single data source, fk/pk will work to fill everything
 
 
-Add new file.
+So i added object props to the model, which i need open to make the data layer that connects
 
-Went and found file with land area in it
-
-download and process with in2csv
-census LND01
-
-Find data sources, census
-Add file
-Import
-Add to dictionary
-Navigates to dictionary, that's good
-No idea what this is all for though...
-
-i tried splitting, did what i wanted i think...
-
-now ingest using dictionary?
-go back to data sources, do dance to ingest with data dictionary
-
-navigate to pipelines, find it
-made a new one because id renamed schema/data source
-and only the LND job is in it.  crep
-
-so the old one census pop is still there
-this gets so messy
-annnd... it doesn't run.
-
-try deleting pipeline...
-
-now the whole thing is fucked.
+now it's all connected nicely and hi-res shines on such little data.
+making dashboard export and new export for the whole graphmart.
 
 
+next step - automate pipeline and activations
+
+
+
+
+
+
+
+* Annoying that I can select just what i want in 'advanced' and it imports all the columns anyway.
+TASK to report?
 
 try -- changing a type in your model
 
-----
-Pristine script first
-
-a. add two census files
-b. add just the columns with values to a new data dictionary
-c. add covid, full select all tables
-d. add to existing dictionary
-
-e. ingest census with dictionary, create new model
-f. ingest covid with dictionary, add to model -- no option to add to existing model
-    used same ontology URI as previous step, which caused:
-    g. run pipeline one failed.
-h. run pipeline 2 succeeded.
-
-models -- what was the point of just selecting specific columns if the whole chunker is coming in anyway.
-there's no simple way to make a canonical model without writing the whole chunker into data layers
-
-ugh, merging seemed promising but i get an untitled class.
 
 
-
-
-(create gqe store, import azg.trig that is pre-existing)
-
-
-
-
-
+Got ever
 

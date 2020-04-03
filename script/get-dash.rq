@@ -15,7 +15,7 @@ WITH {
      WHERE {
            GRAPH ?dashboard {
                 ?s awtser:registryComponent ?lens .
-                ?s dc:title "census" .
+                ?s dc:title "Covid Counties" .
            }
      }
 } AS %_dashboard

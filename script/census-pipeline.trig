@@ -1,0 +1,13 @@
+@prefix sdi: <http://cambridgesemantics.com/ontologies/2015/08/SDIService#> .
+
+<http://cambridgesemantics.com/semanticServices/SDIService/runETLTransformation> {
+        sdi:sdiRequest
+                sdi:etlEngineConfig        <http://cambridgesemantics.com/Sparkler_Engine_Config/82965bd0f44911e9a7132a2ae2dbcce4> ;
+                sdi:includePrecedingStages "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+                sdi:jobContext
+                           [ sdi:job <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1> ;
+                             a sdi:JobContext ] ,
+                           [ sdi:job <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd> ;
+                             a sdi:JobContext ] ;
+                a sdi:SDIRequest .
+}

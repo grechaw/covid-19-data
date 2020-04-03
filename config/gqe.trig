@@ -1,0 +1,23 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix system: <http://openanzo.org/ontologies/2008/07/System#> .
+
+<http://cambridgesemantics.com/AnzoDataStore/caa723b6d1a343cba83cc492b8364be4> {
+	<http://cambridgesemantics.com/AnzoDataStore/caa723b6d1a343cba83cc492b8364be4> <http://purl.org/dc/terms/created> "2020-04-03T18:46:08.000Z"^^xsd:dateTime ;
+		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://cambridgesemantics.com/ontologies/DataSources#compressOutput> "true"^^xsd:boolean ;
+		<http://cambridgesemantics.com/ontologies/DataSources#dataLocation> <http://cambridgesemantics.com/PathConnection/3691e72134124d03877493c56eb9dcc9> ;
+		<http://cambridgesemantics.com/ontologies/DataSources#dataSourceName> "gqe" ;
+		<http://cambridgesemantics.com/ontologies/DataSources#dataSourceRemarks> "Location for covid flds graph data (shared with docker azg)" ;
+		a system:RDFDataTarget , <http://cambridgesemantics.com/ontologies/DataSources#DataSource> , <http://cambridgesemantics.com/ontologies/DataSources#FileGraphDataSource> , <http://cambridgesemantics.com/ontologies/DataSources#GraphDataSource> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T18:46:08.000Z"^^xsd:dateTime .
+	
+	<http://cambridgesemantics.com/PathConnection/3691e72134124d03877493c56eb9dcc9> <http://purl.org/dc/terms/created> "2020-04-03T18:46:08.000Z"^^xsd:dateTime ;
+		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://cambridgesemantics.com/ontologies/DataSources#fileConnection> <http://cambridgesemantics.com/File_Connection/local> ;
+		<http://cambridgesemantics.com/ontologies/DataSources#filePath> "/Users/charles/src/covid-19-data/flds/" ;
+		a <http://cambridgesemantics.com/ontologies/DataSources#PathConnection> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T18:46:08.000Z"^^xsd:dateTime .
+}
