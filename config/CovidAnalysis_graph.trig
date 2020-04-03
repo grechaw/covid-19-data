@@ -1186,7 +1186,7 @@
 		<http://purl.org/dc/elements/1.1/title> "CovidAnalysis" ;
 		<http://purl.org/dc/terms/created> "2020-04-02T23:02:21.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-02T23:02:21.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T00:41:30.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
 	
 	<http://cambridgesemantics.com/OrderedItem/0c7d9bb0b559406085a6fa45acaa3eba> a <http://openanzo.org/ontologies/2008/07/Anzo#IndexedItem> , <http://openanzo.org/ontologies/2008/07/Anzo#OrderedValue> ;
@@ -2170,418 +2170,499 @@
 	<http://covid2> a <http://www.w3.org/2002/07/owl#Ontology> ;
 		<http://cambridgesemantics.com/ontologies/Tags#tags> <http://cambridgesemantics.com/Tag/Auto-Gen> ;
 		<http://purl.org/dc/elements/1.1/description> "Auto-generated ontology from census in census" ;
-		<http://purl.org/dc/elements/1.1/title> "CovidAnalysis - census - Auto" ;
+		<http://purl.org/dc/elements/1.1/title> "CovidAnalysis Ontology" ;
 		<http://purl.org/dc/terms/created> "2020-04-02T22:59:01.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-02T23:01:26.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T15:37:33.458Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
 		<http://www.w3.org/2000/01/rdf-schema#comment> "Auto-generated ontology from census in census" ;
-		<http://www.w3.org/2000/01/rdf-schema#label> "CovidAnalysis - census - Auto" .
+		<http://www.w3.org/2000/01/rdf-schema#label> "CovidAnalysis Ontology" .
 	
-	<http://covid2#CountyAnalysis> a <http://www.w3.org/2000/01/rdf-schema#Class> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#Class> ;
+	<http://covid2#CountyAnalysis> a <http://www.w3.org/2002/07/owl#Class> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "CountyAnalysis" .
 	
-	<http://covid2#CountyAnalysis_Area_name> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_Area_name> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "Area_name" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 	
-	<http://covid2#CountyAnalysis_Areaname> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_Areaname> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "Areaname" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 	
-	<http://covid2#CountyAnalysis_LND010190D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010190D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010190D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND010190F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010190F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010190F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND010190N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010190N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010190N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND010190N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010190N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010190N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND010200D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010200D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010200D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND010200F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010200F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010200F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND010200N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010200N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010200N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND010200N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND010200N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND010200N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110180D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110180D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110180D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110180F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110180F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110180F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110180N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110180N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110180N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110180N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110180N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110180N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110190D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110190D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110190D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110190F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110190F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110190F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110190N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110190N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110190N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110190N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110190N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110190N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110200D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110200D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110200D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110200F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110200F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110200F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110200N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110200N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110200N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110200N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110200N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110200N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110210D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110210D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110210D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110210F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110210F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110210F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND110210N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110210N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110210N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND110210N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND110210N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND110210N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND210190D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210190D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210190D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND210190F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210190F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210190F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND210190N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210190N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210190N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND210190N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210190N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210190N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND210200D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210200D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210200D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND210200F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210200F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210200F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_LND210200N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210200N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210200N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_LND210200N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_LND210200N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "LND210200N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010130D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010130D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010130D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010130F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010130F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010130F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010130N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010130N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010130N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010130N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010130N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010130N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010140D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010140D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010140D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010140F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010140F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010140F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010140N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010140N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010140N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010140N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010140N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010140N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010150D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010150D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010150D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010150F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010150F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010150F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010150N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010150N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010150N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010150N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010150N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010150N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010160D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010160D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010160D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010160F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010160F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010160F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010160N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010160N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010160N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010160N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010160N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010160N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010170D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010170D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010170D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010170F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010170F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010170F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010170N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010170N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010170N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010170N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010170N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010170N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010180D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010180D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010180D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010180F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010180F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010180F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010180N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010180N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010180N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010180N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010180N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010180N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010190D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010190D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010190D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010190F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010190F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010190F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010190N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010190N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010190N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010190N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010190N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010190N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010200D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010200D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010200D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010200F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010200F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010200F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010200N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010200N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010200N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010200N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010200N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010200N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010210D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010210D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010210D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010210F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010210F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010210F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP010210N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010210N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010210N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP010210N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP010210N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP010210N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP020170D> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP020170D> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP020170D" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP020170F> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP020170F> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#float> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP020170F" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 	
-	<http://covid2#CountyAnalysis_POP020170N1> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP020170N1> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP020170N1" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_POP020170N2> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_POP020170N2> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "POP020170N2" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_STCOU> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_STCOU> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "STCOU" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_cases> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_cases> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "cases" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_county> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_county> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "county" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 	
-	<http://covid2#CountyAnalysis_date> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_date> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#date> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "date" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
 	
-	<http://covid2#CountyAnalysis_deaths> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_deaths> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "deaths" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_fips> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_fips> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#int> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "fips" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 	
-	<http://covid2#CountyAnalysis_state> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2000/01/rdf-schema#Resource> , <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+	<http://covid2#CountyAnalysis_state> a <http://www.w3.org/2002/07/owl#DatatypeProperty> , <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+		<http://openanzo.org/ontologies/2008/07/Anzo#range> <http://www.w3.org/2001/XMLSchema#string> ;
 		<http://www.w3.org/2000/01/rdf-schema#domain> <http://covid2#CountyAnalysis> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "state" ;
 		<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .

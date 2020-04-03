@@ -3,6 +3,6 @@
 	<http://cambridgesemantics.com/ontologies/2018/06/Export#ExportVersionResponse/26d1fbeaf4e74305ae27d9a34df688db> a <http://cambridgesemantics.com/ontologies/2018/06/Export#ExportResponse> , <http://cambridgesemantics.com/ontologies/2018/06/Export#ExportVersionResponse> , <http://openanzo.org/ontologies/2008/07/SemanticService#ServiceResponse> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Export#exportGraph> <http://cambridgesemantics.com/Graphmart/26d1fbeaf4e74305ae27d9a34df688db> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Export#graphName> "CovidAnalysis" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Export#versionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Graphmart%2F26d1fbeaf4e74305ae27d9a34df688db)/4024f1ef-eb54-4625-82ba-a2b6439050b7> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Export#versionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Graphmart%2F26d1fbeaf4e74305ae27d9a34df688db)/5393ed06-1c6a-48bb-bebe-228dab7bfd71> ;
 		<http://openanzo.org/ontologies/2008/07/SemanticService#originatingRequest> <http://cambridgesemantics.com/Graphmart/26d1fbeaf4e74305ae27d9a34df688db> .
 }
