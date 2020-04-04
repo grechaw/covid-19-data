@@ -2,12 +2,12 @@
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#RetrieveVersionResponse/fae74b84e8ba401c8429447125b3faa4> {
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#RetrieveVersionResponse/fae74b84e8ba401c8429447125b3faa4> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#RetrieveVersionResponse> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionResponse> , <http://openanzo.org/ontologies/2008/07/SemanticService#ServiceResponse> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionReference> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/2fb7ab0e-248a-423a-9f05-79f46c37a89c> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/384176fa-4445-4539-a3d2-543371de0ec8> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/3e0a8600-3d39-41f5-95a8-e5babc45c9fc> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/482f3635-0c22-4b79-8e4a-a1e36477b925> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/7f4ea6a9-ad95-4d6b-aa6a-fff4e9ed6160> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/80031aed-ac61-451f-b329-f54545577008> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/8ae2dcfe-bee4-4dcb-a439-7362318c0295> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ac9f6dca-aefe-4504-b79e-59a0fe342b51> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/b3b54be5-b0cb-4828-803f-f4f4610445a4> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/b56af047-a0cb-4b99-8beb-e38b0e2123ce> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c32e3776-8fa7-498c-bf4e-10cb80b58a2f> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c34eb625-e2de-44fd-afbd-d515f1157681> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/cb5d3c04-fb3a-4b65-8ca9-c7bbea228323> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/d8d32b92-fb93-4b9b-8114-26fc0241f0df> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/e3c2434c-5b54-4203-898d-cead635fe7da> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/f0b4cc39-fb39-4af3-802d-455137de27dd> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionReference> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/2617b078-55b1-42d7-971a-527e0a4e58e1> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/384176fa-4445-4539-a3d2-543371de0ec8> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/3e0a8600-3d39-41f5-95a8-e5babc45c9fc> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/482f3635-0c22-4b79-8e4a-a1e36477b925> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/7f4ea6a9-ad95-4d6b-aa6a-fff4e9ed6160> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/80031aed-ac61-451f-b329-f54545577008> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/8ae2dcfe-bee4-4dcb-a439-7362318c0295> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/9159ada3-9b48-4e45-9a94-4781476644f0> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ac9f6dca-aefe-4504-b79e-59a0fe342b51> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ae1e5a3c-a7c0-4eef-958c-330b1d6708a8> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/b56af047-a0cb-4b99-8beb-e38b0e2123ce> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c32e3776-8fa7-498c-bf4e-10cb80b58a2f> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c34eb625-e2de-44fd-afbd-d515f1157681> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c3911d09-a31b-4e6b-b4bd-86a1f94343cf> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/d657fcf5-b07b-4e08-893e-601fe1eef85f> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/d8d32b92-fb93-4b9b-8114-26fc0241f0df> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/e1a34b82-4a52-47da-8422-e529d0272b76> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/e3c2434c-5b54-4203-898d-cead635fe7da> ;
 		<http://openanzo.org/ontologies/2008/07/SemanticService#originatingRequest> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#RetrieveVersionRequest//fae74b84e8ba401c8429447125b3faa4> .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/2fb7ab0e-248a-423a-9f05-79f46c37a89c> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://openanzo.org/catEntry(%5Bhttp%3A%2F%2Fcsi.com%2FFileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec%5D%40%5Bhttp%3A%2F%2Fopenanzo.org%2Fdatasource%2FsystemDatasource%5D)> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/2fb7ab0e-248a-423a-9f05-79f46c37a89c> .
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/2617b078-55b1-42d7-971a-527e0a4e58e1> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/2617b078-55b1-42d7-971a-527e0a4e58e1> .
 	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/384176fa-4445-4539-a3d2-543371de0ec8> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/File_Connection/local> ;
@@ -16,10 +16,6 @@
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/3e0a8600-3d39-41f5-95a8-e5babc45c9fc> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/16f6890218b21e43bd5e775082d0c94b/74398dccc6917d17a1e2b04b7b635817> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F16f6890218b21e43bd5e775082d0c94b%2F74398dccc6917d17a1e2b04b7b635817)/3e0a8600-3d39-41f5-95a8-e5babc45c9fc> .
-	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/LoadDataStep/807e961e9ae845ceb7368287cee4e9bd> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> .
 	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/482f3635-0c22-4b79-8e4a-a1e36477b925> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/366d4ef1dee297fa45617b769450c9dd/74398dccc6917d17a1e2b04b7b635817> ;
@@ -37,17 +33,17 @@
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(covid-analysis)/8ae2dcfe-bee4-4dcb-a439-7362318c0295> .
 	
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/9159ada3-9b48-4e45-9a94-4781476644f0> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://openanzo.org/catEntry(%5Bhttp%3A%2F%2Fcsi.com%2FFileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec%5D%40%5Bhttp%3A%2F%2Fopenanzo.org%2Fdatasource%2FsystemDatasource%5D)> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/9159ada3-9b48-4e45-9a94-4781476644f0> .
+	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ac9f6dca-aefe-4504-b79e-59a0fe342b51> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(CSVDataSource%2Fb1f4402107964f97b92a3b647c89baad%2FSchema%2FCensus_and_NYTimes_Covid)/ac9f6dca-aefe-4504-b79e-59a0fe342b51> .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> .
-	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/b3b54be5-b0cb-4828-803f-f4f4610445a4> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/ae1e5a3c-a7c0-4eef-958c-330b1d6708a8> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/b3b54be5-b0cb-4828-803f-f4f4610445a4> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/ae1e5a3c-a7c0-4eef-958c-330b1d6708a8> .
 	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/b56af047-a0cb-4b99-8beb-e38b0e2123ce> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad> ;
@@ -61,21 +57,25 @@
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/0e1f3ea397cefe1e7ec4f359b435f59f/74398dccc6917d17a1e2b04b7b635817> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F0e1f3ea397cefe1e7ec4f359b435f59f%2F74398dccc6917d17a1e2b04b7b635817)/c34eb625-e2de-44fd-afbd-d515f1157681> .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/cb5d3c04-fb3a-4b65-8ca9-c7bbea228323> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/c3911d09-a31b-4e6b-b4bd-86a1f94343cf> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/LoadDataStep/807e961e9ae845ceb7368287cee4e9bd> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/c3911d09-a31b-4e6b-b4bd-86a1f94343cf> .
+	
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/d657fcf5-b07b-4e08-893e-601fe1eef85f> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/Layer/91ee3c8c83b74a589290f96106cc577d> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/cb5d3c04-fb3a-4b65-8ca9-c7bbea228323> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/d657fcf5-b07b-4e08-893e-601fe1eef85f> .
 	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/d8d32b92-fb93-4b9b-8114-26fc0241f0df> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/5e2168974bda73d362913667380598d9/74398dccc6917d17a1e2b04b7b635817> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F5e2168974bda73d362913667380598d9%2F74398dccc6917d17a1e2b04b7b635817)/d8d32b92-fb93-4b9b-8114-26fc0241f0df> .
 	
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/e1a34b82-4a52-47da-8422-e529d0272b76> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Graphmart%2Ffae74b84e8ba401c8429447125b3faa4)/e1a34b82-4a52-47da-8422-e529d0272b76> .
+	
 	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/e3c2434c-5b54-4203-898d-cead635fe7da> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/AnzoDataStore/caa723b6d1a343cba83cc492b8364be4> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(AnzoDataStore%2Fcaa723b6d1a343cba83cc492b8364be4)/e3c2434c-5b54-4203-898d-cead635fe7da> .
-	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference/f0b4cc39-fb39-4af3-802d-455137de27dd> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionReference> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#archiveGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Graphmart%2Ffae74b84e8ba401c8429447125b3faa4)/f0b4cc39-fb39-4af3-802d-455137de27dd> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/117d9041-c5a1-4ebc-b622-7e726d60a094> {
@@ -144,25 +144,25 @@
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/2e2e28fa-dfc3-4657-b6c2-b3597f846222> {
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/2fb7ab0e-248a-423a-9f05-79f46c37a89c> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/9159ada3-9b48-4e45-9a94-4781476644f0> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/2fb7ab0e-248a-423a-9f05-79f46c37a89c> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "219905191076ad7bb456ca8625b3ccdb" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/2617b078-55b1-42d7-971a-527e0a4e58e1> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/bc8e206a-be9f-4c70-b2c4-7ffaeab02837> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/92a91eaa-085e-4ca8-9e0d-acd0e103b403> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
-		<http://purl.org/dc/elements/1.1/title> "Version many" .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/5ed8fe3d-8f9d-47a9-937d-51716969ba88> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/31f53be6-7570-4903-993b-4e840778b046> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/bc8e206a-be9f-4c70-b2c4-7ffaeab02837> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/5ed8fe3d-8f9d-47a9-937d-51716969ba88> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#FileBasedCatalogEntry> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "File Based Dataset" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://openanzo.org/catEntry(%5Bhttp%3A%2F%2Fcsi.com%2FFileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec%5D%40%5Bhttp%3A%2F%2Fopenanzo.org%2Fdatasource%2FsystemDatasource%5D)> ;
 		<http://purl.org/dc/elements/1.1/title> "Census and NYTimes Covid" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/92a91eaa-085e-4ca8-9e0d-acd0e103b403> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/31f53be6-7570-4903-993b-4e840778b046> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/3c75dd87-c47e-4171-9e8b-06b0f3ed927b> {
@@ -188,47 +188,47 @@
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/3ceb7219-6179-4244-8e58-649b2e60119d> {
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/c3911d09-a31b-4e6b-b4bd-86a1f94343cf> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "6bf1dcc11ac9085165b92937ab169155" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/2fb7ab0e-248a-423a-9f05-79f46c37a89c> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(catEntry%28%255Bhttp%253A%252F%252Fcsi.com%252FFileBasedLinkedDataSet%252F74d47ea286c75b6aafeabc74546dadec%255D%2540%255Bhttp%253A%252F%252Fopenanzo.org%252Fdatasource%252FsystemDatasource%255D%29)/9159ada3-9b48-4e45-9a94-4781476644f0> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/cfd9b94b-dabb-41d2-933d-545cd55cc236> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/369ba92c-3b8d-4ecf-bac4-5c53946176ec> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
-		<http://purl.org/dc/elements/1.1/title> "Version many" .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/d6ef67db-d6c3-4cc8-9a13-d57fb1b7e6b2> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/39cd0c55-d8bf-4296-8be7-e560fb26affb> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/cfd9b94b-dabb-41d2-933d-545cd55cc236> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/d6ef67db-d6c3-4cc8-9a13-d57fb1b7e6b2> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/Graphmarts#LoadLdsDataStep> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "Load Data Step" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://cambridgesemantics.com/LoadDataStep/807e961e9ae845ceb7368287cee4e9bd> ;
 		<http://purl.org/dc/elements/1.1/title> "Load Census and NYTimes Covid" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/369ba92c-3b8d-4ecf-bac4-5c53946176ec> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/39cd0c55-d8bf-4296-8be7-e560fb26affb> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/49af0388-0fc9-47b3-a478-59b34a758b7f> {
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/b3b54be5-b0cb-4828-803f-f4f4610445a4> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "1a24a324ccf89e341d0af31ec763f061" ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/ae1e5a3c-a7c0-4eef-958c-330b1d6708a8> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/b3b54be5-b0cb-4828-803f-f4f4610445a4> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "1428e042d1185c88fe770d929c170d2a" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(AnzoDataStore%2Fcaa723b6d1a343cba83cc492b8364be4)/e3c2434c-5b54-4203-898d-cead635fe7da> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(CSVDataSource%2Fb1f4402107964f97b92a3b647c89baad%2FSchema%2FCensus_and_NYTimes_Covid)/ac9f6dca-aefe-4504-b79e-59a0fe342b51> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(CSVDataSource%2Fb1f4402107964f97b92a3b647c89baad)/b56af047-a0cb-4b99-8beb-e38b0e2123ce> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F0e1f3ea397cefe1e7ec4f359b435f59f%2F74398dccc6917d17a1e2b04b7b635817)/c34eb625-e2de-44fd-afbd-d515f1157681> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F16f6890218b21e43bd5e775082d0c94b%2F74398dccc6917d17a1e2b04b7b635817)/3e0a8600-3d39-41f5-95a8-e5babc45c9fc> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F366d4ef1dee297fa45617b769450c9dd%2F74398dccc6917d17a1e2b04b7b635817)/482f3635-0c22-4b79-8e4a-a1e36477b925> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(automap%2F83bf96b55efaa8fbfaaf429ecee81aca%2F83bf96b55efaa8fbfaaf429ecee81aca%2F5e2168974bda73d362913667380598d9%2F74398dccc6917d17a1e2b04b7b635817)/d8d32b92-fb93-4b9b-8114-26fc0241f0df> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(covid-analysis)/8ae2dcfe-bee4-4dcb-a439-7362318c0295> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/d4ca0eda-aa6a-42b6-8c59-061397f4efe0> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/abd7d138-4467-4dc5-9607-212cbd3e7662> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
-		<http://purl.org/dc/elements/1.1/title> "Version many" .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/03f0fe0f-eeef-42da-9663-fa5392d930ff> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/882945de-0161-4a7f-b56a-39779cd20ce6> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/d4ca0eda-aa6a-42b6-8c59-061397f4efe0> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/03f0fe0f-eeef-42da-9663-fa5392d930ff> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/ETL#DatasetProject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "Dataset Project" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817> ;
 		<http://purl.org/dc/elements/1.1/title> "Load Census and NYTimes Covid" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/abd7d138-4467-4dc5-9607-212cbd3e7662> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/882945de-0161-4a7f-b56a-39779cd20ce6> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/5c616006-aa31-472d-bd32-93a78d983f70> {
@@ -254,25 +254,25 @@
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/85013394-66d6-427b-aee8-68cb3251955f> {
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "8b0d88600fa72a3f11de0a2d329095c6" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(File_Connection%2Flocal)/384176fa-4445-4539-a3d2-543371de0ec8> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/b3b54be5-b0cb-4828-803f-f4f4610445a4> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(covid-analysis)/8ae2dcfe-bee4-4dcb-a439-7362318c0295> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/2617b078-55b1-42d7-971a-527e0a4e58e1> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(FileBasedLinkedDataSet%2F74d47ea286c75b6aafeabc74546dadec)/ae4b5734-1b2b-4556-9a95-bee432f0b0ef> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "fa65e7aa79577674a02e91eeabe51c78" ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(File_Connection%2Flocal)/384176fa-4445-4539-a3d2-543371de0ec8> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(covid-analysis)/8ae2dcfe-bee4-4dcb-a439-7362318c0295> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Project%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F83bf96b5-5efa-a8fb-faaf-429ecee81aca%2F74398dcc-c691-7d17-a1e2-b04b7b635817)/ae1e5a3c-a7c0-4eef-958c-330b1d6708a8> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/293f9f7e-8b06-424a-92c8-3034bd5292b2> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/cd659ccf-0445-419f-81d0-faada416ef5b> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
-		<http://purl.org/dc/elements/1.1/title> "Version many" .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/1f9ea4bb-1a98-4269-b806-bd6d507e1dd3> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/c8f34d8a-dda3-4701-8fb4-c1d1097a1a84> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/293f9f7e-8b06-424a-92c8-3034bd5292b2> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/1f9ea4bb-1a98-4269-b806-bd6d507e1dd3> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#FileBasedLinkedDataSet> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "File Backed Linked Data Set" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> ;
 		<http://purl.org/dc/elements/1.1/title> "Census and NYTimes Covid" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/cd659ccf-0445-419f-81d0-faada416ef5b> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/c8f34d8a-dda3-4701-8fb4-c1d1097a1a84> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/88829bc6-60b2-461f-a6af-6ab4c2251744> {
@@ -406,25 +406,25 @@
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/dfc64a14-4038-4158-8087-abeecdf1fbec> {
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/cb5d3c04-fb3a-4b65-8ca9-c7bbea228323> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "eb8cf9503b60ae74f2c107d4e3a7e7c0" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/3f3b45b8-9071-4bf9-ae59-2dfc8b426e12> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/d657fcf5-b07b-4e08-893e-601fe1eef85f> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/cb5d3c04-fb3a-4b65-8ca9-c7bbea228323> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "87d8b7b5496fe48f12f335d77d1b18e5" ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(LoadDataStep%2F807e961e9ae845ceb7368287cee4e9bd)/c3911d09-a31b-4e6b-b4bd-86a1f94343cf> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/f9bfd3e4-43e9-43f7-90d5-e33d8d42aa65> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/1ddb5907-7fb5-4212-98b9-1a5239ae9ef4> ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
-		<http://purl.org/dc/elements/1.1/title> "Version many" .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/4d2378ed-ccf0-47a1-b849-60e54d50ab67> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/9e803683-8832-40c5-8e6f-2a71cfed0fe7> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/f9bfd3e4-43e9-43f7-90d5-e33d8d42aa65> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/4d2378ed-ccf0-47a1-b849-60e54d50ab67> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/Graphmarts#Layer> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "Layer" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://cambridgesemantics.com/Layer/91ee3c8c83b74a589290f96106cc577d> ;
 		<http://purl.org/dc/elements/1.1/title> "Census and NYTimes Covid" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/1ddb5907-7fb5-4212-98b9-1a5239ae9ef4> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/9e803683-8832-40c5-8e6f-2a71cfed0fe7> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/e23a7b97-5fea-4441-8177-70e3c79dd917> {
@@ -434,19 +434,30 @@
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/9f622947-1441-44b8-b4b2-bfe44976aa22> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/707fe06c-687d-432e-ba69-dd817049803f> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionLocationVersionNumber> "0"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-03T20:12:44.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/elements/1.1/description> "newly constructed, this maybe the resting place" ;
 		<http://purl.org/dc/elements/1.1/title> "Version many" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/9f622947-1441-44b8-b4b2-bfe44976aa22> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Graphmart%2Ffae74b84e8ba401c8429447125b3faa4)/e1a34b82-4a52-47da-8422-e529d0272b76> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#derivedFromVersionEntry> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Graphmart%2Ffae74b84e8ba401c8429447125b3faa4)/f0b4cc39-fb39-4af3-802d-455137de27dd> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#graphHash> "93b8b7e40bdea89f32beb70553fcadf0" ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#relatedVersionEntries> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/1/(Layer%2Fb3ba649adaca4b3983acb510a5030ad1)/c32e3776-8fa7-498c-bf4e-10cb80b58a2f> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntry/2/(Layer%2F91ee3c8c83b74a589290f96106cc577d)/d657fcf5-b07b-4e08-893e-601fe1eef85f> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionAuthor> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionEntryInfo> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/9b91edab-64ca-4952-a8fc-760225f1d037> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionId> <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/d6996ee6-125e-4dae-afb8-98c05b225b7b> ;
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionTimestamp> "2020-04-04T02:46:57.014Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/elements/1.1/title> "Any changes" .
+	
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo/9b91edab-64ca-4952-a8fc-760225f1d037> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionEntryInfo> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#type> <http://cambridgesemantics.com/ontologies/Graphmarts#Graphmart> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#typeLabel> "Graphmart" ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#versionedGraph> <http://cambridgesemantics.com/Graphmart/fae74b84e8ba401c8429447125b3faa4> ;
 		<http://purl.org/dc/elements/1.1/title> "Covid Graphmart" .
 	
-	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/707fe06c-687d-432e-ba69-dd817049803f> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
+	<http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId/d6996ee6-125e-4dae-afb8-98c05b225b7b> a <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionId> , <http://cambridgesemantics.com/ontologies/2018/06/Versioning#VersionObject> ;
 		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#environment> "DEV" ;
-		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+		<http://cambridgesemantics.com/ontologies/2018/06/Versioning#id> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 }
 
 <http://cambridgesemantics.com/ontologies/2018/06/Versioning#Versionable/f229b6f1-4c29-4085-a118-fc3f21c5f334> {

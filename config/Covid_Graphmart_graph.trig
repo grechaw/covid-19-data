@@ -1331,7 +1331,7 @@
 		<http://purl.org/dc/elements/1.1/title> "Covid Graphmart" ;
 		<http://purl.org/dc/terms/created> "2020-04-03T19:25:39.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-03T19:35:07.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T21:20:30.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
 	
 	<http://cambridgesemantics.com/OrderedItem/b9d9491f2f4f4b3f8c56f567b78a618b> a <http://openanzo.org/ontologies/2008/07/Anzo#IndexedItem> , <http://openanzo.org/ontologies/2008/07/Anzo#OrderedValue> ;
@@ -1362,7 +1362,7 @@
 		<http://purl.org/dc/elements/1.1/title> "Census and NYTimes Covid" ;
 		<http://purl.org/dc/terms/created> "2020-04-03T19:25:39.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-03T19:25:39.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T21:04:17.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
 	
 	<http://cambridgesemantics.com/OrderedItem/72c1bfc9121f4462b92c0146e0315bcb> a <http://openanzo.org/ontologies/2008/07/Anzo#IndexedItem> , <http://openanzo.org/ontologies/2008/07/Anzo#OrderedValue> ;
@@ -1433,7 +1433,7 @@
 		<http://cambridgesemantics.com/ontologies/ETL#completeJobNames> "Loadusstates_usstates" ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeProjectName> "LoadCensusandNYTimesCovid_0e723" ;
 		<http://cambridgesemantics.com/ontologies/ETL#edge> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/SourceNode/Edge> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/TransformNode/Edge> ;
-		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585940289101> ;
+		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585940289101> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585945835491> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585947100961> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585947345938> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585949605695> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585949775246> ;
 		<http://cambridgesemantics.com/ontologies/ETL#node> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/OutputNode> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/SourceNode/InputElement> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/TransformNode> ;
 		<http://cambridgesemantics.com/ontologies/ETL#ontology> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/Tags#tags> <http://cambridgesemantics.com/Tag/Auto-Gen> ;
@@ -1496,7 +1496,7 @@
 		<http://cambridgesemantics.com/ontologies/ETL#completeJobNames> "LoadPOP01_POP01" ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeProjectName> "LoadCensusandNYTimesCovid_0e723" ;
 		<http://cambridgesemantics.com/ontologies/ETL#edge> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/SourceNode/Edge> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/TransformNode/Edge> ;
-		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585940311998> ;
+		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585940311998> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585945857106> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585947172785> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585947254465> ;
 		<http://cambridgesemantics.com/ontologies/ETL#node> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/OutputNode> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/SourceNode/InputElement> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/TransformNode> ;
 		<http://cambridgesemantics.com/ontologies/ETL#ontology> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/Tags#tags> <http://cambridgesemantics.com/Tag/Auto-Gen> ;
@@ -1558,33 +1558,16 @@
 	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd> a <http://cambridgesemantics.com/ontologies/ETL#Job> ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeJobNames> "LoadLND01_LND01" ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeProjectName> "LoadCensusandNYTimesCovid_0e723" ;
-		<http://cambridgesemantics.com/ontologies/ETL#edge> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/Edge> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/Edge> ;
-		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585940332069> ;
-		<http://cambridgesemantics.com/ontologies/ETL#node> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/InputElement> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode> ;
+		<http://cambridgesemantics.com/ontologies/ETL#edge> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_314c7eb903a74eebfeebe5d07d10d245> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_81af2261c0834bd2e0da3104bbfe10e5> ;
+		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585940332069> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585945876220> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585947272095> ;
+		<http://cambridgesemantics.com/ontologies/ETL#node> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/InputElement> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_86475b42670d4d6ea2d91466c441f06a> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_d2cbf540e3234f9fd016471272e1f215> ;
 		<http://cambridgesemantics.com/ontologies/ETL#ontology> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/Tags#tags> <http://cambridgesemantics.com/Tag/Auto-Gen> ;
 		<http://purl.org/dc/elements/1.1/title> "Load LND01" ;
 		<http://purl.org/dc/terms/created> "2020-04-03T18:57:02.008Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-03T18:57:02.008Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:33.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Node> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#inputs> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode/InputParameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#left> "540.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#top> "260.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#value> <http://cambridgesemantics.com/ProjectDataSource/Placeholder> ;
-		<http://cambridgesemantics.com/ontologies/ETL#datasource> <http://cambridgesemantics.com/ProjectDataSource/Placeholder> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode/InputParameter> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#InputParameter> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Parameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://csi.com/covid-analysis#LND01> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/Edge> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Edge> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#source> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/InputElement> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#sourceEndpoint> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/OutputParameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#target> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#targetEndpoint> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/InputParameter> .
 	
 	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/InputElement> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Node> ;
 		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#left> "34.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1597,32 +1580,11 @@
 		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid/Table/LND01> ;
 		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Node> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#inputs> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/InputParameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#left> "256.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#outputs> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/OutputParameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#top> "360.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#value> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/5e2168974bda73d362913667380598d9/74398dccc6917d17a1e2b04b7b635817> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/Edge> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Edge> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#source> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#sourceEndpoint> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/OutputParameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#target> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#targetEndpoint> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/OutputNode/InputParameter> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/InputParameter> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#InputParameter> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Parameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid/Table/LND01> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-	
-	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/TransformNode/OutputParameter> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#OutputParameter> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Parameter> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://csi.com/covid-analysis#LND01> ;
-		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-	
 	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73> a <http://cambridgesemantics.com/ontologies/ETL#Job> ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeJobNames> "Loaduscounties_uscounties" ;
 		<http://cambridgesemantics.com/ontologies/ETL#completeProjectName> "LoadCensusandNYTimesCovid_0e723" ;
 		<http://cambridgesemantics.com/ontologies/ETL#edge> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/SourceNode/Edge> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/TransformNode/Edge> ;
-		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585940350328> ;
+		<http://cambridgesemantics.com/ontologies/ETL#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585940350328> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585945895279> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585947327798> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585949625868> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585949794761> ;
 		<http://cambridgesemantics.com/ontologies/ETL#node> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/OutputNode> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/SourceNode/InputElement> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/TransformNode> ;
 		<http://cambridgesemantics.com/ontologies/ETL#ontology> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/Tags#tags> <http://cambridgesemantics.com/Tag/Auto-Gen> ;
@@ -1680,6 +1642,55 @@
 	<http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/TransformNode/OutputParameter> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#OutputParameter> , <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Parameter> ;
 		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://csi.com/covid-analysis#us-counties> ;
 		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_314c7eb903a74eebfeebe5d07d10d245> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Edge> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#source> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_86475b42670d4d6ea2d91466c441f06a> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#sourceEndpoint> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_a799fb21ba0a46a7b74b3a32f8e22f2a> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#target> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_d2cbf540e3234f9fd016471272e1f215> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#targetEndpoint> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_4d9b1813042b4625c922dd355b9250a0> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:33.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_4d9b1813042b4625c922dd355b9250a0> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#InputParameter> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://csi.com/covid-analysis#LND01> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:33.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_81af2261c0834bd2e0da3104bbfe10e5> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Edge> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#source> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/InputElement> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#sourceEndpoint> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/SourceNode/OutputParameter> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#target> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_86475b42670d4d6ea2d91466c441f06a> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#targetEndpoint> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_95c6295d62634b18922012058f2e2e29> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:23.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_86475b42670d4d6ea2d91466c441f06a> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Node> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#inputs> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_95c6295d62634b18922012058f2e2e29> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#left> "260.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#outputs> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_a799fb21ba0a46a7b74b3a32f8e22f2a> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#top> "344.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#value> <http://cambridgesemantics.com/automap/83bf96b55efaa8fbfaaf429ecee81aca/83bf96b55efaa8fbfaaf429ecee81aca/5e2168974bda73d362913667380598d9/74398dccc6917d17a1e2b04b7b635817> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:25.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_95c6295d62634b18922012058f2e2e29> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#InputParameter> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://cambridgesemantics.com/CSVDataSource/b1f4402107964f97b92a3b647c89baad/Schema/Census_and_NYTimes_Covid/Table/LND01> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:23.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_a799fb21ba0a46a7b74b3a32f8e22f2a> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#OutputParameter> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#parameterType> <http://csi.com/covid-analysis#LND01> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:23.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
+	
+	<http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_d2cbf540e3234f9fd016471272e1f215> a <http://cambridgesemantics.com/ontologies/2014/06/Workflow#Node> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#inputs> <http://cambridgesemantics.com/ontologies/2014/06/Workflow#guid_4d9b1813042b4625c922dd355b9250a0> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#left> "502.09375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#top> "251.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+		<http://cambridgesemantics.com/ontologies/2014/06/Workflow#value> <http://cambridgesemantics.com/ProjectDataSource/Placeholder> ;
+		<http://cambridgesemantics.com/ontologies/ETL#datasource> <http://cambridgesemantics.com/ProjectDataSource/Placeholder> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T20:29:33.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> .
 }
 
 <http://cambridgesemantics.com/QueryStep/ad530f48f75e45e38be80c750a824a1b> {
@@ -3285,7 +3296,7 @@ WHERE{
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataLocation> <http://csi.com/DataLocation/74d47ea286c75b6aafeabc74546dadec> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataset> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#isTextIndexUsed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585940289101> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585940311998> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585940332069> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585940350328> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#jobRun> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585940289101> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585945835491> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585947100961> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585947345938> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585949605695> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061/1585949775246> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585940311998> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585945857106> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585947172785> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1/1585947254465> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585940332069> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585945876220> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd/1585947272095> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585940350328> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585945895279> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585947327798> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585949625868> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73/1585949794761> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#metrics> <http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec_metrics> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ontology> <http://csi.com/covid-analysis> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#relatedJob> <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/27c3eb48-2d93-75d5-f97f-98fd221eb061> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/2f08436b-6606-67ab-fb44-9fc8a91074a1> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/3dc61d36-b57a-eef7-53ad-dc3e2f42b8cd> , <http://cambridgesemantics.com/Project/83bf96b5-5efa-a8fb-faaf-429ecee81aca/83bf96b5-5efa-a8fb-faaf-429ecee81aca/74398dcc-c691-7d17-a1e2-b04b7b635817/Job/cfa9aa03-96c7-0e46-50b9-cbaa9e925c73> ;
@@ -3293,29 +3304,29 @@ WHERE{
 		<http://purl.org/dc/elements/1.1/title> "Census and NYTimes Covid" ;
 		<http://purl.org/dc/terms/created> "2020-04-03T18:58:33.371Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
-		<http://purl.org/dc/terms/modified> "2020-04-03T18:59:28.384Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modified> "2020-04-03T21:36:52.595Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
 		<http://www.w3.org/2000/01/rdf-schema#label> "Census and NYTimes Covid" .
 	
 	<http://csi.com/FileBasedLinkedDataSet/74d47ea286c75b6aafeabc74546dadec_metrics> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#DatasetMetrics> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classUsageData> <http://openanzo.org/ClassInstanceCount/3b430f79-3dea-47f1-9e76-e7973b1849b6> , <http://openanzo.org/ClassInstanceCount/6d278b00-939f-4efd-b1fe-da3a95dbcedd> , <http://openanzo.org/ClassInstanceCount/81197318-8778-4eaf-bd51-4cbc1f0c04eb> , <http://openanzo.org/ClassInstanceCount/ba8c783c-3ab8-4f30-88f0-b69e302b5c65> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#sizeInBytes> "2094907"^^<http://www.w3.org/2001/XMLSchema#long> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#statementCount> "420620"^^<http://www.w3.org/2001/XMLSchema#long> .
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classUsageData> <http://openanzo.org/ClassInstanceCount/21602c45-da9f-4c5e-ad4a-62a23b2cd147> , <http://openanzo.org/ClassInstanceCount/40533a69-3faa-4026-a531-4a800467cbb1> , <http://openanzo.org/ClassInstanceCount/b92ca1e8-beff-4f8a-b6bf-0c63cf9ac007> , <http://openanzo.org/ClassInstanceCount/f5c7f0b4-5190-4036-9123-4bab0cfef5e5> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#sizeInBytes> "2415478"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#statementCount> "468331"^^<http://www.w3.org/2001/XMLSchema#long> .
 	
-	<http://openanzo.org/ClassInstanceCount/3b430f79-3dea-47f1-9e76-e7973b1849b6> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "1554"^^<http://www.w3.org/2001/XMLSchema#long> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid-analysis#us-states> .
-	
-	<http://openanzo.org/ClassInstanceCount/6d278b00-939f-4efd-b1fe-da3a95dbcedd> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
+	<http://openanzo.org/ClassInstanceCount/21602c45-da9f-4c5e-ad4a-62a23b2cd147> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "6396"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid-analysis#LND01> .
 	
-	<http://openanzo.org/ClassInstanceCount/81197318-8778-4eaf-bd51-4cbc1f0c04eb> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
+	<http://openanzo.org/ClassInstanceCount/40533a69-3faa-4026-a531-4a800467cbb1> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "1719"^^<http://www.w3.org/2001/XMLSchema#long> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid-analysis#us-states> .
+	
+	<http://openanzo.org/ClassInstanceCount/b92ca1e8-beff-4f8a-b6bf-0c63cf9ac007> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "3198"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid-analysis#POP01> .
 	
-	<http://openanzo.org/ClassInstanceCount/ba8c783c-3ab8-4f30-88f0-b69e302b5c65> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
-		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "21799"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	<http://openanzo.org/ClassInstanceCount/f5c7f0b4-5190-4036-9123-4bab0cfef5e5> a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ClassInstanceCount> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classCount> "28486"^^<http://www.w3.org/2001/XMLSchema#long> ;
 		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#classType> <http://csi.com/covid-analysis#us-counties> .
 }
 
